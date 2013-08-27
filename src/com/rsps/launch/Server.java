@@ -4,7 +4,6 @@
  * If you do not agree to the terms refrain yourself from using this source!
  */
 package com.rsps.launch;
-import static com.rsps.launch.Config.*;
 
 /**
  *
