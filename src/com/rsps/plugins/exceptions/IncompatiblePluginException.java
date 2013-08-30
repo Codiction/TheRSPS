@@ -20,6 +20,6 @@ public class IncompatiblePluginException extends Exception {
     }
     
     public IncompatiblePluginException(Plugin p) {
-        super("'" + p.getDescription().getName() + "' does not meet the requirements for this server version " + RSPS.getServer().getVersion());
+        
     }
 }

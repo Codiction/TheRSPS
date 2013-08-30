@@ -8,7 +8,6 @@ package com.rsps.launch;
 
 import com.rsps.color.ChatColor;
 import static org.fusesource.jansi.Ansi.*;
-import static org.fusesource.jansi.Ansi.Color.*;
 import org.fusesource.jansi.AnsiConsole;
 
 /**
@@ -39,6 +38,8 @@ public class RSPS {
     }
 
     public RSPS() {}
+    
+    
 
     private static void initJansi() {
         if (Config.USE_JANSI) {
@@ -62,11 +63,9 @@ public class RSPS {
     public static Server getServer() {
         return server;
     }
-
-    public static void println(Object clss, String message) {
-        if (Config.USE_JANSI && isEnabled()) {
-            AnsiConsole.out().println("<" + ChatColor.DARK_AQUA + clss.getClass().getSimpleName() + ChatColor.RESET + "> " + message + ChatColor.RESET);
-        }
+    
+    public static boolean isColorEnabled() {
+        return Config.USE_JANSI && isEnabled();
     }
 
 }

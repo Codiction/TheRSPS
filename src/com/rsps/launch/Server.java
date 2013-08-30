@@ -5,6 +5,8 @@
  */
 package com.rsps.launch;
 
+import com.rsps.plugins.PluginManager;
+
 /**
  *
  * @author Arix (Codiction)
@@ -12,6 +14,7 @@ package com.rsps.launch;
 public class Server {
     
     private boolean running = false;
+    private PluginManager pluginManager;
     
     
     private Server() {
@@ -19,7 +22,11 @@ public class Server {
     }
     
     public void start() {
-        
+        pluginManager = new PluginManager();
+    }
+    
+    public PluginManager getPluginManager() {
+        return pluginManager;
     }
     
     public int getVersion() {

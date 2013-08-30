@@ -12,7 +12,6 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *
@@ -49,7 +48,7 @@ public class EventManagerTest {
         Event e2 = new PlayerDeathEvent();
         EventManager instance = new EventManager();
         EventTestje ev = new EventTestje();
-        instance.addEventContainer(ev);
+        
         instance.fireEvent(e);
         instance.fireEvent(e2);
         

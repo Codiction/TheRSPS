@@ -2,6 +2,23 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/launch/RSPS.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/event/EventTestje.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/plugins/PluginClassLoader.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/plugins/PluginLoader.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/plugins/Plugin.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/plugins/PluginManager.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/color/ChatColor.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/event/events/PlayerMoveEvent.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/launch/Server.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/event/EventManager.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/plugins/PluginDescriptionFile.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/test/com/rsps/event/EventManagerTest.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/event/events/PlayerDeathEvent.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/plugins/exceptions/MissingFileException.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/plugins/exceptions/IncompatiblePluginException.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/TheRSPS/src/com/rsps/plugins/PluginLogbook.java</file>
+        </group>
     </open-files>
 </project-private>

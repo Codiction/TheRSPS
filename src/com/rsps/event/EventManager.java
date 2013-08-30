@@ -21,24 +21,17 @@ import java.util.logging.Logger;
  */
 public class EventManager {
 
-    public List<Object> eventContainers = new ArrayList();
-
-    public void addEventContainer(Object c) {
-        eventContainers.add(c);
-    }
-
     public void fireEvent(Event e) {
 
         Method[] methods;
 
-        for (Object o : eventContainers) {
-            methods = o.getClass().getMethods();
-            for (Method m : methods) {
+        for (Plugin p : RSPS.getServer().getPluginManager().getPlugins()) {
+            for (Method m : p.getDescription().methodCollection) {
                 if (m.getAnnotation(EventHandler.class) != null) {
                     try {
 
                         if (m.getParameterTypes()[0].isAssignableFrom(e.getClass())) {
-                            m.invoke(o, e);
+                            m.invoke(m.getDeclaringClass(), e);
                         }
                     } catch (IllegalAccessException ex) {
                     } catch (IllegalArgumentException ex) {
@@ -46,6 +39,7 @@ public class EventManager {
                     }
                 }
             }
+
         }
     }
 }
